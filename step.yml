@@ -51,9 +51,13 @@ inputs:
       value_options:
       - prod
       - dev
-  - token:
+  - mail:
     opts:
-      title: "Prod or Dev Token"
+      title: "Auth mail"
+      is_required: true
+  - password:
+    opts:
+      title: "Auth password"
       is_required: true
   - version:
     opts: 
