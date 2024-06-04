@@ -63,3 +63,7 @@ inputs:
     opts: 
       title: "App Version"
       is_required: true
+  - lang:
+    opts:
+      title: "Supported languages"
+      is_required: true
